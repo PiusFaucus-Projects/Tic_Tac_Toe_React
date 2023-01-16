@@ -13,7 +13,8 @@ class Square extends React.Component {
   constructor(props){
     super(props);
     this.state ={
-      value 
+      value: null,
+    };
 }
 
 class Board extends React.Component {
