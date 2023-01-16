@@ -10,7 +10,8 @@ class Square extends React.Component {
       </button>
     );
   constructor(props){
-    super{}
+    super(props);
+    this.state
   }
   }
 }
