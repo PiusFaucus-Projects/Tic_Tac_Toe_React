@@ -32,7 +32,7 @@ class Board extends React.Component {
   }
 
   handleClick(i) {
-    const squares
+    const squares = this.state.squares
   }
 
   render() {
