@@ -15,6 +15,7 @@ class Square extends React.Component {
     this.state ={
       value: null,
     };
+  }
 }
 
 class Board extends React.Component {
