@@ -9,11 +9,7 @@ class Square extends React.Component {
         {this.props.value}
       </button>
     );
-  constructor(props){
-    super(props);
-    this.state ={
-      value 
-    }
+
   }
   }
 }
