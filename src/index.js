@@ -29,12 +29,7 @@ class Board extends React.Component {
         onClick={() => this.handleClick(i)}
       />
     );
-  constructor(props) {
-    super(props);
-    this.state = {
-      squares: Array(9).fill(null),
-      };
-    }
+
   }
 
   render() {
