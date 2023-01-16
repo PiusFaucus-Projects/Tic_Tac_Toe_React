@@ -31,7 +31,9 @@ class Board extends React.Component {
     );
   }
 
-  hand
+  handleClick(i) {
+    const squares
+  }
 
   render() {
     const status = 'Next player: X';
