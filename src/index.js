@@ -33,7 +33,8 @@ class Board extends React.Component {
 
   handleClick(i) {
     const squares = this.state.squares.slice();
-    squares[]
+    squares[i] = 'X';
+    this
   }
 
   render() {
