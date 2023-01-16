@@ -29,9 +29,9 @@ class Board extends React.Component {
         onClick={() => this.handleClick(i)}
       />
     );
-
-    
   }
+
+  hand
 
   render() {
     const status = 'Next player: X';
