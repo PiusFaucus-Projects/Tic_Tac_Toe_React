@@ -13,9 +13,9 @@ class Square extends React.Component {
       </button>
     );
   }
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state ={
+    this.state = {
       squares: Array(9).fill(null),
     };
   }
