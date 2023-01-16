@@ -10,7 +10,7 @@ class Square extends React.Component {
       </button>
     );
 
-  }
+    }
   }
 }
 
