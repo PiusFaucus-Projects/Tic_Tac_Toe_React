@@ -63,7 +63,7 @@ class Game extends React.Component {
       </div>
     );
   }
-  
+
   handleClick(i) {
     const history = this.state.history;
     const current = history[history.length - 1];
@@ -78,9 +78,7 @@ class Game extends React.Component {
       }]),
       xIsNext: !this.state.xIsNext,
     });
-  }
-
-  
+  } 
 }
 
 // ========================================
