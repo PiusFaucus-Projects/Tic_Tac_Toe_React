@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function Square(props) {
-  
-
-  render() {
     return (
       <button 
         className="square" 
