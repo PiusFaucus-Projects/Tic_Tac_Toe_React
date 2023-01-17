@@ -75,7 +75,8 @@ class Game extends React.Component {
       <div className="game">
         <div className="game-board">
           <Board
-            squares />
+            squares={current.squares}
+             />
         </div>
         <div className="game-info">
           <div>{/* status */}</div>
