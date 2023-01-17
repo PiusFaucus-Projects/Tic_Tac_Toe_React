@@ -76,7 +76,7 @@ class Game extends React.Component {
         <div className="game-board">
           <Board
             squares={current.squares}
-            onClick={(i)} />
+            onClick={(i) => this.handleClick()} />
         </div>
         <div className="game-info">
           <div>{/* status */}</div>
