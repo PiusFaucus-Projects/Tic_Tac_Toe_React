@@ -23,7 +23,7 @@ class Board extends React.Component {
     );
   }
 
-  render() {   
+  render() {
     return (
       <div>
         <div className="board-row">
@@ -44,10 +44,9 @@ class Board extends React.Component {
       </div>
     );
   }
-}
 
 class Game extends React.Component {
-  
+
   handleClick(i) {
     const history = this.state.history;
     const current = history[history.length - 1];
