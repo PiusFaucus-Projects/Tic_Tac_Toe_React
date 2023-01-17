@@ -44,6 +44,9 @@ class Board extends React.Component {
     if(winner){
       status = 'Winner: ' + winner;
     }
+    else{
+      status 
+    }
 
     return (
       <div>
