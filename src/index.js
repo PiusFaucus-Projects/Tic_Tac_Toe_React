@@ -59,7 +59,7 @@ class Board extends React.Component {
 
 class Game extends React.Component {
   render() {
-    
+    const history = this.state
 
     return (
       <div className="game">
