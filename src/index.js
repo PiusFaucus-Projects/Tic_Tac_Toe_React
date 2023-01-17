@@ -71,6 +71,7 @@ handleClick(i) {
     if (winner) {
       status = 'Winner: ' + winner;
     } 
+    
     else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
