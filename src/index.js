@@ -64,7 +64,9 @@ class Game extends React.Component {
     const winner = calculateWinner(current.squares);
 
     let status;
-    
+    if (winner){
+      sta
+    }
 
     return (
       <div className="game">
