@@ -61,7 +61,7 @@ class Game extends React.Component {
   render() {
     const history = this.state.history;
     const current = history[history.length -1];
-    const calculateWinner
+    const winner = calculateWinner()
 
     return (
       <div className="game">
