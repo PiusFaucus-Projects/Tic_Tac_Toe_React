@@ -79,7 +79,7 @@ class Game extends React.Component {
             onClick={(i) => this.handleClick(i)} />
         </div>
         <div className="game-info">
-          <div clas>
+          <div className = "status">
           <ol>{/* TODO */}</ol>
         </div>
       </div>
