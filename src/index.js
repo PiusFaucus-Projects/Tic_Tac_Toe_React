@@ -17,10 +17,10 @@ class Board extends React.Component {
     super(props);
     this.state ={
       history:[{
-
+        squares: Array(9).fill(null),
+        xIsNext: true,
       }],
-      squares: Array(9).fill(null),
-      xIsNext: true,
+
     };
   }
 
