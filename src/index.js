@@ -20,9 +20,7 @@ class Board extends React.Component {
         squares: Array(9).fill(null),
         xIsNext: true,
       }],
-
-      xIsNext
-
+      xIsNext: true,
     };
   }
 
