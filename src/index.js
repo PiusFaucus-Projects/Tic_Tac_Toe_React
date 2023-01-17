@@ -68,7 +68,7 @@ class Game extends React.Component {
       status = 'Winner: ' + winner;
     }
     else {
-      status = 'Next player: ' 
+      status = 'Next player: ' + (this.sta)
     }
 
     return (
