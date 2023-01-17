@@ -38,7 +38,7 @@ class Board extends React.Component {
   
 
   render() {
-    const status = 'Next player: ' +;
+    const status = 'Next player: ' + (this.state);
 
     return (
       <div>
