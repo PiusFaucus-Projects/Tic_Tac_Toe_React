@@ -63,6 +63,7 @@ class Game extends React.Component {
       xIsNext: !this.state.xIsNext,
     });
   }
+  
   render() {
 
     return (
