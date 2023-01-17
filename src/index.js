@@ -70,7 +70,8 @@ handleClick(i) {
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
-    } else {
+    } 
+    else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
  
