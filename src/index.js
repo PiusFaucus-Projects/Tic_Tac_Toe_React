@@ -21,6 +21,8 @@ class Board extends React.Component {
         xIsNext: true,
       }],
 
+      xIsNext
+
     };
   }
 
