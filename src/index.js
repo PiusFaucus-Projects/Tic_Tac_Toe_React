@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Square(params) {
+function Square(props) {
   
-} Square extends React.Component {
+
   render() {
     return (
       <button 
