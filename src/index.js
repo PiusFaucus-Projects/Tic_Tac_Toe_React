@@ -60,9 +60,9 @@ class Game extends React.Component {
     squares[i] =this.state.xIsNext ? 'X' : 'O';
     this.setState({
       history: history.concat([{
-        
-      }])
-      squares: squares,
+        squares: squares,
+      }]),
+      
       xIsNext: !this.state.xIsNext,
       });
   }
