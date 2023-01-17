@@ -32,7 +32,7 @@ class Board extends React.Component {
     squares[i] =this.state.xIsNext ? 'X' : 'O';
     this.setState({
       squares: squares,
-      });
+      xIsNext: !this.});
   }
   
 
