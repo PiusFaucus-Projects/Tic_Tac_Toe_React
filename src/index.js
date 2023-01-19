@@ -86,7 +86,7 @@ class Game extends React.Component {
       </div>
     );
   }
-
+}
 // ========================================
 
 ReactDOM.render(
