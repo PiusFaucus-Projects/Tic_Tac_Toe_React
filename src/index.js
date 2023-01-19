@@ -58,7 +58,9 @@ class Game extends React.Component {
     };
   }
 
-  jumpTo
+  jumpTo(step){
+    this.setState
+  }
 
   handleClick(i) {
     const history = this.state.history;
