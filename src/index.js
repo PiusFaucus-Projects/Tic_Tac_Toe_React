@@ -59,23 +59,7 @@ class Board extends React.Component {
 
 class Game extends React.Component {
 
-handleClick(i) {
-    const history = this.state.history;
-    const current = history[history.length - 1];
-    const squares = current.squares.slice();
-    if (calculateWinner(squares) || squares[i]) {
-      return;
-    }
-    squares[i] = this.state.xIsNext ? 'X' : 'O';
-    this.setState({
-      history: history.concat([{
-        squares: squares,
-      }]),
-      xIsNext: !this.state.xIsNext,
-    });
-  }
-
-  render() {
+render() {
     const history = this.state.history;
     const current = history[history.length - 1];
     const winner = calculateWinner(current.squares);
@@ -83,9 +67,7 @@ handleClick(i) {
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
-    } 
-    
-    else {
+    } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
  
@@ -104,7 +86,6 @@ handleClick(i) {
       </div>
     );
   }
-}
 
 // ========================================
 
