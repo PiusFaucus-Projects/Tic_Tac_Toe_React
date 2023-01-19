@@ -59,7 +59,9 @@ class Game extends React.Component {
   }
 
   jumpTo(step){
-    this.setState
+    this.setState({
+      stepNumber: s
+    })
   }
 
   handleClick(i) {
