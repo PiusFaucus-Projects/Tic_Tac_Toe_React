@@ -57,7 +57,7 @@ class Game extends React.Component {
       squares: squares,
       xIsNext: !this.state.xIsNext,
     });
-  }
+}
 
 render() {
     const history = this.state.history;
