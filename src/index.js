@@ -47,7 +47,6 @@ class Board extends React.Component {
 
 class Game extends React.Component {
 
-
   render() {
     const history = this.state.history;
     const current = history[history.length - 1];
